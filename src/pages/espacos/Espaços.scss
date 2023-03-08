@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.ItemContainer {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .ListItem {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li {
+            display: flex;
+            border: 1px solid rgba(0, 0, 0, 0.103);
+            border-radius: 10px;
+            flex-direction: column;
+            margin: 0 auto;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            justify-content: space-around;
+            box-shadow: 0px 0px 14px -11px #000000;
+            img {
+                width: 300px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 10px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+            .block {
+                width: 300px;
+                height: 120px;
+                background: #fff;
+            }
+            .block:hover {
+            }
+            .bottomBlock {
+                width: 300px;
+                height: 50px;
+                border-radius: 10px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                cursor: pointer;
+                .linkBlock {
+                    list-style-type: none;
+                    text-decoration: none;
+                    color: black;
+                }
+                h2 {
+                    text-align: center;
+                    font-size: 22px;
+                    font-weight: 500;
+                    margin-top: 12px;
+                }
+            }
+            .bottomBlock:hover{
+                transition-duration: 0.4s;
+                box-shadow: 0px 0px 14px -12px #000000;
+            }
+            .dados {
+                margin-top: 12px;
+                padding: 0 13px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                max-width: 340px;
+                h2 {
+                    font-size: 18px;
+                }
+                p {
+                }
+            }
+        }
+    }
+}

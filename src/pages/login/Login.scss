@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.container-login {
+    height: calc(100vh - 70px);
+
+    font-family: 'Inter', sans-serif;
+    background-image: url("../../assets/login/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .login-bg {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .textChamativo,
+        .textChamativo1 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #fff;
+            font-weight: 'bold';
+        }
+
+        .textChamativo1 {
+            font-size: 21px;
+        }
+
+        .login {
+            box-shadow: 0px 10px 27px -8px rgba(255, 255, 255, 0.62);
+            padding: 20px 30px;
+            border-radius: 5px;
+            background-color: #FFF;
+
+            h3 {
+                font-weight: 600;
+            }
+
+            p {
+                font-weight: 500;
+                margin: 4px 0 10px 0;
+            }
+
+            .login-externo {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    cursor: pointer;
+                    user-select: none;
+                }
+
+                .bar {
+                    width: 2px;
+                    height: auto;
+                    margin: 15px 30px;
+                    background-color: #000;
+                }
+            }
+
+            .or {
+                display: flex;
+                justify-content: center;
+                font-weight: 400;
+                margin: 10px 0;
+                user-select: none;
+            }
+
+            .email-senha {
+                display: flex;
+                justify-content: center;
+            }
+
+            .passwordhelp {
+                margin-top: 15px;
+                display: flex;
+                justify-content: center;
+
+                a {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+                a:hover {
+                    color: rgb(97, 95, 95);
+                }
+            }
+
+            .buttonsLogin {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+
+                #buttonLogin,
+                #buttonCadastrar {
+                    margin-bottom: 10px;
+                    background-color: #000;
+                }
+            }
+        }
+    }
+}

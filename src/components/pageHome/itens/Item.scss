@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+.Item {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+
+    h1 {
+        margin-top: 50px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .List {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        color: #494949;
+
+        .Categories {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+            margin-inline: auto;
+
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            p {
+                line-height: 1rem;
+                margin-bottom: 15px;
+                font-size: 16px;
+                max-width: 100px;
+            }
+        }
+
+        .Categories:hover {
+            opacity: .7;
+            transition: .4s;
+            color: rgb(240, 104, 104);
+        }
+
+        .Categories1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            p {
+                line-height: 1rem;
+                margin-bottom: 15px;
+                font-size: 16px;
+                max-width: 100px;
+            }
+        }
+
+        .Categories1:hover {
+            opacity: .7;
+            transition: .2s;
+            color: rgb(230, 159, 6);
+
+        }
+
+        .Categories2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            p {
+                line-height: 1rem;
+                margin-bottom: 15px;
+                font-size: 16px;
+                max-width: 100px;
+            }
+        }
+
+        .Categories2:hover {
+            opacity: .7;
+            transition: .2s;
+            color: rgb(213, 216, 47);
+
+        }
+
+        .Categories3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            p {
+                line-height: 1rem;
+                margin-bottom: 15px;
+                font-size: 16px;
+                max-width: 100px;
+                flex-direction: row;
+            }
+        }
+
+        .Categories3:hover {
+            opacity: .7;
+            transition: .2s;
+            color: rgb(122, 95, 44);
+
+        }
+
+        .Categories4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            p {
+                line-height: 1rem;
+                margin-bottom: 15px;
+                font-size: 16px;
+
+            }
+        }
+
+        .Categories4:hover {
+            opacity: .7;
+            transition: .2s;
+            color: #8890A6
+        }
+
+        .Categories5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            p {
+                line-height: 1rem;
+                margin-bottom: 15px;
+                font-size: 16px;
+                max-width: 100px;
+            }
+        }
+
+        .Categories5:hover {
+            opacity: .7;
+            transition: .2s;
+            color: rgb(109, 197, 255);
+
+        }
+
+        li {
+            text-align: center;
+            list-style: none;
+
+            p {
+                margin-top: 10px;
+                font-size: 20px;
+                font-weight: 600;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .transitionText {
+        width: 100%;
+        font-size: 26px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}

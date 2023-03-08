@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+.container-location{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+    .time-location{
+        display: flex;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 20px 0;
+        align-items: center;
+        width: 97%;
+        flex-direction: column;
+        h1{
+            font-size: 23px;
+            padding-bottom: 15px;
+            font-weight: 500;
+        }
+        .times{
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+
+            .time-hours{
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                justify-content: center;
+                flex-direction: column;
+                h2{
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+
+            }
+            .time-date{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                h2{
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .paymont{
+            h1{
+                padding-top: 50px;
+                text-align: center;
+            }
+            .pagamento{
+                display: flex; 
+                flex-direction: column;
+                align-items: center;
+                justify-content: center; 
+            }
+        }
+    }
+}

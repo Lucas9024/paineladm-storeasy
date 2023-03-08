@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+
+.App {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    h1 {
+        text-align: center;
+        font-family: 'Lato';
+        color: #494949;
+        text-align: 'center';
+        font-weight: 400;
+        margin-bottom: '30px';
+        font-size: 32px;
+    }
+}
+
+.container-home {
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+    .content {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    footer {
+        bottom: 0;
+        width: 100%;
+
+    }
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #dfe1e6;
+    border-radius: 4px;
+}

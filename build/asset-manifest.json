@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.239d9302.css",
+    "main.js": "/static/js/main.fa642de9.js",
+    "static/media/background.png": "/static/media/background.851aae2ee1ad59cb67f4.png",
+    "static/media/garagemstore01.png": "/static/media/garagemstore01.1a683f74c0deaeed5613.png",
+    "static/media/quartinho.png": "/static/media/quartinho.317247eef5973acc1ffe.png",
+    "static/media/garagemstore02.jpg": "/static/media/garagemstore02.c66d9bcc2903045caebc.jpg",
+    "static/media/maps.jpeg": "/static/media/maps.f79e20f2b07b479f2a0f.jpeg",
+    "static/media/garagemstore07.jpg": "/static/media/garagemstore07.00e326516f8ba467e7c3.jpg",
+    "static/media/garagemstore05.jpg": "/static/media/garagemstore05.8b1e00c9c99fbc0e26ef.jpg",
+    "static/media/pessoa.png": "/static/media/pessoa.5edeb52db1e657b283d4.png",
+    "static/media/garagemstore03.jpg": "/static/media/garagemstore03.ecfe6959495de4e37816.jpg",
+    "static/media/garagem.jpg": "/static/media/garagem.f87ebc7399553e7835ae.jpg",
+    "static/media/chatIcon.png": "/static/media/chatIcon.5fa4488dd59bb9162d37.png",
+    "static/media/garagemstore06.jpg": "/static/media/garagemstore06.d7d46070c82d327cfcc4.jpg",
+    "static/media/garagemstore04.jpg": "/static/media/garagemstore04.9730b75eeb31888ffb04.jpg",
+    "static/media/pessoa-perfil.png": "/static/media/pessoa-perfil.f22a0342b06e35e57b54.png",
+    "static/media/cobertura.png": "/static/media/cobertura.40704fb0ee6c1f45a851.png",
+    "static/media/detector.png": "/static/media/detector.ee1236b0432eb6003340.png",
+    "static/media/camera-seguranca.png": "/static/media/camera-seguranca.3bb64e11bdbdfb14c4f9.png",
+    "static/media/logo-storeasy.png": "/static/media/logo-storeasy.197707690902e7fa3985.png",
+    "static/media/garagem.png": "/static/media/garagem.1a61971eeb5409413032.png",
+    "static/media/pet.png": "/static/media/pet.d45e0b92c78aa5c40e4a.png",
+    "static/media/extintor.png": "/static/media/extintor.8104404d67e0054040b7.png",
+    "index.html": "/index.html",
+    "main.239d9302.css.map": "/static/css/main.239d9302.css.map",
+    "main.fa642de9.js.map": "/static/js/main.fa642de9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.239d9302.css",
+    "static/js/main.fa642de9.js"
+  ]
+}

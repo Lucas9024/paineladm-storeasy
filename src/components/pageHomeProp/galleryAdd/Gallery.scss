@@ -1,0 +1,23 @@
+.galleryAdd{
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    .itemGrandeAdd{
+        .imgItemGrandeAdd{ 
+            border-radius: 2px;
+        }
+    }  
+    .itensPequenosAdd {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .imgItensPequenosAdd{
+            border-radius: 2px;
+            height: 125px;
+            margin: 5px;
+            margin-left: 10px;
+        }
+    }   
+}

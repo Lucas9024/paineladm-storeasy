@@ -1,0 +1,18 @@
+.inputs{
+    margin-top: 30px;
+    display: flex;
+    padding-bottom: 3px;
+}
+.custom-calendar {
+  box-shadow: 0 1em 3em rgba(156, 136, 255,0.2);
+}
+
+.custom-today-day {
+  font-weight: 400 !important;
+
+  border: 1px solid #e67e22 !important;
+}
+
+.custom-today-day::after {
+  visibility: hidden; /* hide small border under the text */
+}

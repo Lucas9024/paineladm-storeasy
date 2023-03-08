@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.dadosImovel {
+    width: 85%;
+    max-width: 370px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 13px -5px rgba(0, 0, 0, 0.39);
+    margin-top: 35px;
+
+    .proprietario-dados {
+        max-width: 100%;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+
+        .dados-prop {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .prop-name {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: 10px;
+
+                img {
+                    width: 120px;
+                }
+
+                .verifi {
+                    display: flex;
+                    padding: 20px;
+                    align-items: center;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+
+        .dados-Chat {
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(221, 10, 200, 1);
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+
+            img {
+                color: #fff;
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+
+            button {
+                font-size: 16px;
+                color: white;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+            }
+
+            button:hover {
+                font-size: 18px;
+                transition: .2s;
+            }
+        }
+    }
+
+    .dadosImovel-preco {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        padding-top: 0;
+        margin-bottom: 25px;
+
+        a {
+            text-decoration: none;
+        }
+
+        .precoTempo {
+            font-size: 16px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+            margin: 2px;
+            color: #1b1b1b;
+            font-weight: 500;
+
+            p {
+                font-size: 16px;
+            }
+
+        }
+
+        .espaco {
+            margin-top: 10px;
+            width: 100%;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: rgba(221, 10, 200, 1);
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+
+            button {
+                font-size: 16px;
+                color: white;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        .btn {
+            height: 40px;
+            width: 320px;
+            padding: 5px 5px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #9C5BFF;
+            margin-top: 22px;
+            background-color: transparent;
+            border: 1px solid #9C5BFF;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: scale(1.02);
+            background-color: #9C5BFF;
+            transition: 0.2s;
+            color: #fff;
+        }
+    }
+}

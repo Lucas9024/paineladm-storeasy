@@ -1,0 +1,12 @@
+.btnContainer {
+  max-width: 200px;
+  .btn{
+      width: 100px;
+      height: 40px;
+      background-color: #000;
+      color: #fff;
+      font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

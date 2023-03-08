@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+.container-infosImovel {
+    font-family: 'Lato', sans-serif;
+    margin: 30px 0 0 0;
+
+    hr {
+        width: 30%;
+    }
+
+    h3 {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        max-width: 600px;
+        font-weight: 300;
+    }
+
+    .infosImovel-title {
+        .met-categ {
+            display: flex;
+
+            .metcateg {
+                display: flex;
+                flex-direction: column;
+                margin-right: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .infosImovel-local {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .local-carac {
+
+        .caracter {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        img {
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+        }
+    }
+
+}

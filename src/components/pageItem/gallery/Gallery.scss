@@ -1,0 +1,12 @@
+.gallery .mySwiper {
+    max-width: 900px;
+
+    .swiper-wrapper {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.gallery img {
+    width: 100%;
+}

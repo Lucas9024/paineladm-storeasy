@@ -1,0 +1,100 @@
+.fecharModal {
+    display: none !important;
+}
+
+.container-modalAviso {
+    position: fixed;
+    max-width: 600px;
+    top: 30%;
+    margin: 0 20px;
+    height: 300px;
+    z-index: 10001;
+
+    .modalAviso-arrow {
+        width: 35%;
+        background-color: red;
+        height: 12%;
+        padding: 0 15px;
+        background: #333333;
+        border-bottom: 1px solid #c0c0c0;
+        border-radius: 5px 5px 0px 0px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+        .arrowModal {
+            height: 100%;
+            color: #FFF;
+            font-size: 30px;
+            margin-left: -10px;
+            transform: rotate(-180deg);
+        }
+    }
+
+    .modalAviso-infos {
+        width: 100%;
+        height: 87%;
+        background: #333333;
+        border-radius: 0 5px 5px 5px;
+
+        .conteudoAviso {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+            color: #FFF;
+            justify-content: center;
+
+            p {
+                font-family: "lato", arial;
+                margin-bottom: 40px;
+                line-height: 1.3rem;
+            }
+
+            .modalAviso-button {
+                position: absolute !important;
+                bottom: 10px !important;
+            }
+
+            .modalAviso-button {
+                width: 6.5em;
+                height: 2.3em;
+                margin: 0.5em;
+                background: black;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: bold;
+                cursor: pointer;
+                z-index: 1;
+                overflow: hidden;
+            }
+
+            .modalAviso-button:hover {
+                color: black;
+            }
+
+            .modalAviso-button:after {
+                content: "";
+                background: white;
+                position: absolute;
+                z-index: -1;
+                left: -20%;
+                right: -20%;
+                top: 0;
+                bottom: 0;
+                transform: skewX(-45deg) scale(0, 1);
+                transition: all 0.5s;
+            }
+
+            .modalAviso-button:hover:after {
+                transform: skewX(-45deg) scale(1, 1);
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+        }
+    }
+}

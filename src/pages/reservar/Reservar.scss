@@ -1,0 +1,220 @@
+.container-reserva {
+    .reserva {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1070px;
+        padding: 25px;
+        margin: 0 auto;
+        font-family: leto;
+        flex-wrap: wrap;
+        gap: 50px;
+
+        .reserva-infos {
+            width: 100%;
+            max-width: 400px;
+
+            .reserva-voltar {
+                display: flex;
+                align-items: center;
+                margin-left: -15px;
+
+                .voltar-button {
+                    font-size: 55px;
+                    padding: 15px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    transition: 0.16s ease-in;
+                }
+
+                .voltar-button:hover {
+                    background-color: #f7f7f7;
+                }
+
+                h1 {
+                    margin-left: 10px;
+                    font-size: 32px;
+                    color: #222;
+                    font-weight: 500;
+                }
+            }
+
+            .infos-da-reserva {
+                padding-bottom: 20px;
+
+                h1 {
+                    font-size: 23px;
+                    margin-top: 0;
+                    text-align: left;
+                    color: #000;
+                    margin-bottom: 10px;
+                    font-weight: 500;
+                }
+
+                h2 {
+                    font-family: 'Lato';
+                    color: #000;
+                    font-weight: 500;
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            .reserva-pagamento {
+                border-top: 1px solid rgb(221, 221, 221);
+
+                h1 {
+                    font-size: 23px;
+                    text-align: left;
+                    color: #000;
+                    margin-top: 25px;
+                    margin-bottom: 10px;
+                    font-weight: 500;
+                }
+
+                .optionCartaoCredito>div {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .pagamentoCredito {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+
+                    .error {
+                        box-shadow: inset 0 -2px 0 red !important;
+                    }
+
+                    .error input:focus {
+                        box-shadow: inset 0 -2px 0 red !important;
+
+                    }
+
+                    .pagamentoCredito-cartao {
+                        display: flex;
+                        margin-bottom: 10px;
+                    }
+
+                    h2 {
+                        margin-top: 20px;
+                        font-size: 20px;
+                        font-family: "lato", sans-serif;
+                        font-weight: 500;
+                    }
+
+                    .pagamentoCredito-Nome {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .pagamentoCredito-Nome>label {
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+
+        .reserva-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: rgb(34, 34, 34);
+            margin-top: 40px;
+            border-radius: 12px;
+            border: 1px solid rgb(221, 221, 221);
+            padding: 25px;
+            max-height: 450px;
+            font-family: "lato", sans-serif;
+
+            hr {
+                width: 100%;
+                border: 0;
+                height: 1px;
+                background-color: rgba(0, 0, 0, 0.24);
+                margin: 15px auto;
+            }
+
+            .reserva-card-img {
+                display: flex;
+
+                img {
+                    margin-right: 10px;
+                    border-radius: 7px;
+                    width: 125px;
+                }
+
+                span {
+                    font-size: 12px;
+                }
+
+                p {
+                    margin-top: 2px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .reserva-card-infos {
+                h2 {
+                    margin-top: 15px;
+                    font-size: 25px;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                }
+
+                .card-infos-valor {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 15px;
+                }
+
+                .card-infos-taxa {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .card-infos-taxa>span {
+                    text-decoration: underline;
+                }
+            }
+
+            .card-infos-total {
+                display: flex;
+                font-weight: 600;
+                justify-content: space-between;
+            }
+
+            .btn-reservar {
+                position: relative;
+                padding: 17px 35px;
+                outline: none;
+                cursor: pointer;
+                text-transform: uppercase;
+                border: 1px solid rgba(22, 76, 167, 0.6);
+                background-color: #ffffff;
+                border-radius: 12px;
+                margin-top: 25px;
+                color: #164ca7;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.7px;
+            }
+
+            .btn-reservar:hover {
+                background-color: #fafafa;
+            }
+        }
+    }
+}
+
+@media (max-width: 845px) {
+    .container-reserva {
+        .reserva {
+            justify-content: center;
+        }
+
+    }
+}
